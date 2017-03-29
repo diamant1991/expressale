@@ -159,7 +159,7 @@ img{
 .workarea3 .corzina .cark{ padding-bottom:20px;}
 .workarea3 .corzina .cark .left{}
 .workarea3 .corzina .cark .right{padding-right:10px; padding-left:10px; margin-left:39px;}
-.workarea3 .corzina .cark .right .bl_1{margin-bottom:30px; box-sizing:border-box; width:300px; background-color:#fffeec; padding:31px 26px 40px 37px;}
+.workarea3 .corzina .cark .right .bl_1{margin-bottom:30px; position: relative; box-sizing:border-box; width:300px; background-color:#fffeec; padding:31px 26px 40px 37px;}
 .workarea3 .corzina .cark .right .zagzag{position:relative; color:#ff7e00; font:14px/17px Arial, Helvetica, sans-serif; font-weight:bold; padding-left:43px; margin-bottom:25px;}
 .workarea3 .corzina .cark .right .zagzag:before{content:''; position:absolute; width:28px; height:26px; background-image:url(img/znak.png); background-position:center center; background-repeat:no-repeat; top:4px; left:0px;}
 .workarea3 .corzina .cark .right .text{font:13px/17px Arial, Helvetica, sans-serif; color:#666666; }
@@ -179,7 +179,7 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.25);}
 .workarea3 .corzina .cark .right .bl_2 .red{color:#eb1c22; font:12px/12px Arial, Helvetica, sans-serif; padding:0px;}
 .workarea3 .corzina .cark .right .bl_3{padding:31px 26px 40px 33px; box-sizing:border-box; width:300px;}
 .workarea3 .corzina .cark .right .bl_3 .text2{color:#4c4c4c; font:13px/18px Arial, Helvetica, sans-serif;}
-.workarea3 .corzina .cark .right .bl_3 i{display:inline-block; vertical-align:-6px; margin-left:40px;  width:84px; height:19px; background-image:url(img/oplata.png); background-position:center center;}
+.workarea3 .corzina .cark .right .bl_3 i{display:inline-block; vertical-align:-6px; margin-left:20px;  width:84px; height:19px; background-image:url(img/oplata.png); background-position:center center;}
 .workarea3 .corzina .cark .right .bl_3 p{margin-bottom:25px;}
 .workarea3 .corzina .cark .left{}
 .workarea3 .corzina .cark .left .block_str{border-top:1px solid #e6e6e6; }
@@ -194,8 +194,8 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.25);}
 .workarea3 .corzina .cark .left .block_str .right2 .quantity button.plus{background-position:center top; top:0;}
 .workarea3 .corzina .cark .left .block_str .right2 .quantity button.minus{background-position:center bottom; bottom:0;}
 .workarea3 .corzina .cark .left .block_str .right2 b{cursor:pointer;display:inline-block; vertical-align:middle; width:11px; height:11px; background-image:url(img/crest.png); background-position:center center; float:right;}
-.workarea3 .corzina .cark .left .block_str .right2 .fa{    font-size: 18px;
-    line-height: 24px;
+.workarea3 .corzina .cark .left .block_str .right2 .fa{    font-size: 16px;
+    line-height: 23px;
     font-weight: 100;}
 .workarea3 .corzina .cark .left .block_str .right2 a{cursor:default; color:#333; font-size:18px;display:inline-block; vertical-align:middle; line-height:22px; }
 .workarea3 .corzina .cark .left .block_str .right3 a{cursor:default; font-size:16px; line-height:21px; color:#333333;display:inline-block; vertical-align:middle; line-height:22px; }
@@ -206,7 +206,7 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.25);}
 .workarea3 .corzina .cark .left .block_str .right3{padding-top:68px; width:10%; }
 .workarea3 .corzina .cark .left .block_str .right2 .econ{font-style:normal; font-size:12px; line-height:15px; color:#e3a758; }
 .workarea3 .corzina .cark .left .block_str .right2 .econ .fa{font-size:12px; font-weight:100;line-height:16px;}
-.workarea3 .corzina .cark .left .block_str .right3 .fa{font-size:16px; font-weight:100;line-height:22px;}
+.workarea3 .corzina .cark .left .block_str .right3 .fa{font-size:14px; font-weight:100;line-height:22px;}
 
 #header.ofor2{height:auto; }
 #header .ofor{height:auto; }
@@ -275,9 +275,9 @@ cursor: pointer;
 .workarea4 .cark .left .okno1 .block_1 p{font:14px/19px Arial, Helvetica, sans-serif; color:#4c4c4c;}
 .workarea4 .cark .left .okno1 .block_1{margin-top:12px; border:1px solid #cccccc; background-color:#f7f7f7; padding:26px 35px 21px 34px; box-sizing:border-box;}
 .workarea4 .cark .left .okno1 .block_1 .text{padding-bottom:27px;}
-.workarea4 .cark .left .okno1 .block_1 .text span{padding-left:44px;}
+.workarea4 .cark .left .okno1 .block_1 .text span{padding-left:22px;}
 .workarea4 .cark .left .okno1 .block_1 .text2{padding-bottom:15px;}
-.workarea4 .cark .left .okno1 .block_1 .text2 span{padding-left:44px; font-weight:bold;}
+.workarea4 .cark .left .okno1 .block_1 .text2 span{padding-left:22px; font-weight:bold;}
 .workarea4 .cark .left .okno1 .block_1 .text2 span .fa{line-height:17px;}
 .workarea4 .cark .left .okno1 .block_1 .st_1{width:41%; margin-right:5%;}
 .workarea4 .cark .left .okno1 .block_1 .st_2{width:27.5%; margin-right:5%;}
@@ -287,6 +287,8 @@ cursor: pointer;
     border-radius: 1px;
     height: 82px;
     resize: none;
+    font-size: 15px;
+    font-family: 'Arial',sans-serif;
     box-sizing: border-box;
     padding: 10px 14px 10px 14px;
     width: 100%;
@@ -333,7 +335,7 @@ cursor: pointer;
     margin-top: -4px;
     right: 9px;
 }
-.workarea4 .cark .right .okno3 .nice-select.open .list{border-top:none; box-shadow:none;  margin-top:0px;width:100%; top:28px;   border: 1px solid #d7d7d7;}
+.workarea4 .cark .right .okno3 .nice-select.open .list{border-top:none;max-height: 260px; box-shadow:none;  margin-top:0px;width:100%; top:28px;   border: 1px solid #d7d7d7;}
 .workarea4 .cark .right .okno3 .nice-select .option:hover{background:#d7d7d7;}
 .workarea4 .cark .right .okno3 .nice-select .option.focus{background:#d7d7d7;}
 .workarea4 .cark .right .okno3 .my-custom-label {
@@ -355,11 +357,11 @@ select.nice1{display:none !important}
 select.nice2{display:none !important}
 select.nice3{display:none !important}
 .nice1 .option{line-height:14px; font-size:12px;}
-.workarea4 .cark .right .okno3 .nice-select.nice1{width:28.6%; margin-right:5%; box-sizing:border-box;}
+.workarea4 .cark .right .okno3 .nice-select.nice1{width:28.6%; margin-right:4%; box-sizing:border-box;}
 .workarea4 .cark .right .okno3 .nice-select.nice2{width:30%; margin-right:5%;box-sizing:border-box;}
 .workarea4 .cark .right .okno3 .nice-select.nice3{width:30%; box-sizing:border-box;}
 .workarea4 .cark .right .okno3 p{font:14px/19px Arial, Helvetica, sans-serif; color:#4c4c4c; margin-bottom:11px;}
-.workarea4 .cark .right .okno3 .inputbox{margin-bottom:23px;}
+.workarea4 .cark .right .okno3 .inputbox{margin-bottom:23px; height: 30px;}
 .workarea4 .cark .right .okno3 .mini{color:#808080; font:12px/17px Arial, Helvetica, sans-serif;}
 .workarea4 .cark .right .okno3 button{margin:40px auto 40px auto; width:215px; height:50px; background:#ffcc00; color:#000; font:18px/22px Arial, Helvetica, sans-serif; text-transform:uppercase;  }
 .workarea4 .cark .right .okno3 .nice-select{margin-bottom:22px;}
@@ -716,6 +718,8 @@ cursor: pointer;
   line-height: 1.1;
 }
 .articul{
+  padding-top: 4px;
+  margin-right: 25px;
   font-size: 12px;
 }
 .arial{
@@ -1147,6 +1151,18 @@ cursor: pointer;
   height: 30px;
   line-height: 30px;
 }
+.tab-content .nice-select:after{
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 8px;
+  height: 5px;
+  right: 15px;
+  top: 50%;
+  margin-top: -2.5px;
+  background: url(img/count-bot.png)no-repeat;
+}
 .tab-content img{
   margin-bottom: 10px;
 }
@@ -1273,13 +1289,65 @@ cursor: pointer;
 .product{
   margin-bottom: 40px;
 }
+.basket-left{
+  width: 69%;
+  float: left;
+}
+.close-btn{
+  cursor: pointer;
+  display: block;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  z-index: 2;
+  right: 10px;
+  top: 10px;
+  background-image: url(img/crest.png);
+  background-position: center center;
+}
+.b-review__form--star {
+    display: block;
+    padding-right: 3px;
+    float: left;
+    color: #cdcdcd;
+    font-size: 16px;
+    text-decoration: none !important;
+    -webkit-transition: none 0.2s linear;
+    -moz-transition: none 0.2s linear;
+    -o-transition: none 0.2s linear;
+    -ms-transition: none 0.2s linear;
+    transition: none 0.2s linear;
+}
+ .b-review__form--star.m-select, 
+ .b-review__form--star.m-active, 
+ .b-review__form--star.is-active {
+    color: #ffcc00;
+}
+.product-star__text a{
+  font-size: 12px;
+  color: #007095;
+}
+.product-star__text{
+  margin-left: 10px;
+}
+
+
 
 @media(max-width: 1199px){
 	#header .head_main .top_block .contacts_block{
 		width: 310px;
 	}
+  .basket-left{
+    width: 62%;
+  }
   .workarea6 .tovar .block{
     width: 33.3%;
+  }
+  .workarea3 .corzina .cark .left .block_str .left2{
+    width: 110px;
+  }
+  .workarea3 .corzina .cark .left .block_str .right2 .quantity{
+    margin-right: 10px;
   }
 }
 @media(max-width: 991px){
@@ -1287,6 +1355,31 @@ cursor: pointer;
 		width: auto;
 		float: right;
 	}
+  .workarea4 .cark .left{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .workarea4 .cark .right{
+    width: 100%;
+  }
+  .workarea3 .corzina .cark .right .bl_1{
+    width: 100%;
+    padding: 0;
+  }
+  .basket-left{
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .workarea3 .corzina .cark .right .bl_2{
+    width: 100%;
+    padding: 15px;
+  }
+  .basket-right{
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 30px;
+  }
   .tab-btn{
     padding: 0 15px;
   }
@@ -1355,6 +1448,44 @@ cursor: pointer;
 		width: 100%;
 		float: none;
 	}
+  .back-page{
+    text-align: center;
+  }
+  .workarea4 .cark .left .okno1 .block_1 .st_1,
+  .workarea4 .cark .left .okno1 .block_1 .st_2,
+  .workarea4 .cark .left .okno1 .block_1 .st_3,
+  .workarea4 .cark .right .okno3 .nice-select.nice1,
+  .workarea4 .cark .right .okno3 .nice-select.nice2,
+  .workarea4 .cark .right .okno3 .nice-select.nice3{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  #header .head_main .top_block .txt{
+    padding-left: 0;
+    text-align: center;
+  }
+  .workarea4 .cark .left .okno1 .block_1,
+  .workarea4 .cark .right .okno3{
+    padding: 10px;
+  }
+  .workarea4 .cark .left .dopol > span{
+    left: 5px;
+  }
+  .workarea4 .cark .left .dopol{
+    padding-left: 30px;
+  }
+  .workarea4 .cark .left .okno1 .block_1 .text3{
+    padding-left: 0;
+  }
+  .workarea4 .cark .left .dopol{
+    height: auto;
+  }
+  .workarea4 .cark .right .okno3 .nom,
+  .workarea4 .cark .right .okno3 .inputbox{
+    width: 100%;
+  }
+
   .workarea6 .right3 .carl4 .w1{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1362,6 +1493,12 @@ cursor: pointer;
   .workarea6 .right3 .foltr{
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .basket-left{
+    overflow: auto;
+  }
+  .workarea3 .corzina .cark .left .block_str{
+    width: 767px;
   }
   .tab-list{
     padding-left: 0;
