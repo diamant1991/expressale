@@ -88,7 +88,7 @@ $(document).ready(function(){
         600:{
             items:3
         },
-        1000:{
+        768:{
             items:4
         }
     }
@@ -104,7 +104,36 @@ $(document).ready(function(){
   	e.preventDefault();
   	$(this).parent().remove()
   });
-  
+
+  $('.toggle-filter').click(function(event) {
+    var filter = $(this).next();
+    if(filter.is(':hidden')){
+      $(this).addClass('active')
+      filter.slideDown(250)
+    }
+    else{
+      $(this).removeClass('active')
+      filter.slideUp(250)
+    }
+  });
+  $('.toggle-menu').click(function(event) {
+    var menu = $(this).next();
+    if(menu.is(':hidden')){
+      menu.slideDown(250)
+    }
+    else{
+      menu.slideUp(250)
+    }
+  });
+  $('.heart-btn').click(function(e) {
+    e.preventDefault();
+    $(this).toggleClass('active');
+  });
+   $('.add-favorites__btn').click(function(e) {
+    e.preventDefault();
+    $(this).toggleClass('active');
+  });
+
 });
 
 var tab = new Array('.tab-descr','.tab-char', '.tab-review', '.tab-gar', '.tab-del');
