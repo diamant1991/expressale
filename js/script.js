@@ -116,15 +116,7 @@ $(document).ready(function(){
       filter.slideUp(250)
     }
   });
-  $('.toggle-menu').click(function(event) {
-    var menu = $(this).next();
-    if(menu.is(':hidden')){
-      menu.slideDown(250)
-    }
-    else{
-      menu.slideUp(250)
-    }
-  });
+  
   $('.heart-btn').click(function(e) {
     e.preventDefault();
     $(this).toggleClass('active');
@@ -133,6 +125,18 @@ $(document).ready(function(){
     e.preventDefault();
     $(this).toggleClass('active');
   });
+
+   $('.dropdown-btn').click(function(e) {
+     var target = $(this).attr('data-target');
+     var block = $('#' + target)
+     if(block.is(':hidden')){
+      $('.dropdown-block').slideUp(250)
+      block.slideDown(250)
+     }
+     else{
+      block.slideUp(250)
+     }
+   });
 
 });
 
