@@ -138,6 +138,25 @@ $(document).ready(function(){
      }
    });
 
+   $("#radio_1, #radio_2").change(function () {
+      if ($("#radio_1").is(":checked")) {
+        if($('#block2').is(':visible')){
+          $('#block2').slideUp(250);
+        }
+        $('#block1').slideDown(250)
+      }
+      else if ($("#radio_2").is(":checked")) {
+        if($('#block1').is(':visible')){
+          $('#block1').slideUp(250);
+        }
+          $('#block2').slideDown(250)
+      }
+    }); 
+
+   $('.dopol').click(function(e) {
+     $('.dopol').removeClass('active')
+     $(this).addClass('active')
+   });
 });
 
 var tab = new Array('.tab-descr','.tab-char', '.tab-review', '.tab-gar', '.tab-del');

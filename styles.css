@@ -668,6 +668,14 @@ cursor: pointer;
 	.workarea6 .tovar .block .otziv{margin-left:12px;}
 	.workarea6 .tovar .block .otziv a{text-decoration:none;  line-height:19px; font-size:14px; font-family:'Arial'; color:#007095; }
 
+.variant-block{
+    display: none;
+}
+
+.workarea4 .cark .left .dopol.active{
+  background: #ffcc00;
+}
+
 .toggle-filter{
   height: 35px;
   font-size: 14px;
